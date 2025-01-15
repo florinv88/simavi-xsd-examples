@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CC432 xmlns="urn:uccv:xsd:imp:1.0.0_2.00:CC432" 
+    xmlns:ns="urn:uccv:xsd:imp:1.0.0_2.00:CC432"
+    xmlns:nsc="urn:uccv:xsd:imp:1.0.0_2.00:CCommon"
+        xmlns:nsd="urn:uccv:xsd:imp:1.0.0_2.00:Declaration">
+    <ns:MESSAGE>
+        <nsc:MessageSender>RO015630942</nsc:MessageSender>
+        <nsc:MessageRecipient>VAMA</nsc:MessageRecipient>
+        <nsc:PreparationDateAndTime>2023-09-02T04:49:45</nsc:PreparationDateAndTime>
+        <nsc:MessageIdentification>705d2f2f-d98f-49b3-968b-2cfa5c4e8337</nsc:MessageIdentification>
+        <nsc:MessageType>CC432</nsc:MessageType>
+    </ns:MESSAGE>
+
+    <ns:ImportOperation>
+        <nsd:LRN>24RO015630942CC444</nsd:LRN>
+    </ns:ImportOperation>
+    
+     <!-- 13 05 000 000 -->
+    <ns:Declarant>
+            <nsd:identificationNumber>RO015630942</nsd:identificationNumber>
+            <nsd:name>INOSERV SRL</nsd:name>
+            <nsd:Address>
+                <nsd:streetAndNumber>ALEEA BOTORANI NR 4</nsd:streetAndNumber>
+                <nsd:city>BUCURESTI</nsd:city>
+                <nsd:postcode>050812</nsd:postcode>
+                <nsd:country>RO</nsd:country>
+            </nsd:Address>
+    
+    </ns:Declarant>
+
+    <ns:Representative>
+        <nsd:status>3</nsd:status>
+    </ns:Representative>
+
+    <ns:GoodsShipment>
+        <nsd:sequenceNumber>1</nsd:sequenceNumber>
+        <nsd:PreviousDocument>
+            <nsd:sequenceNumber>1</nsd:sequenceNumber>
+            <nsd:referenceNumber>24RO015630942CC459</nsd:referenceNumber>
+            <nsd:type>NMRN</nsd:type>
+        </nsd:PreviousDocument>
+        <nsd:ccQualifier>RO</nsd:ccQualifier>
+
+    </ns:GoodsShipment>
+
+</CC432>

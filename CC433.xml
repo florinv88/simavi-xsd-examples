@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CC433 xmlns="urn:uccv:xsd:imp:1.0.0_2.00:CC433" 
+    xmlns:ns="urn:uccv:xsd:imp:1.0.0_2.00:CC433" 
+    xmlns:nsc="urn:uccv:xsd:imp:1.0.0_2.00:CCommon"
+    xmlns:nsd="urn:uccv:xsd:imp:1.0.0_2.00:Declaration">
+    <ns:MESSAGE>
+        <nsc:MessageSender>RO015630942</nsc:MessageSender>
+        <nsc:MessageRecipient>VAMA</nsc:MessageRecipient>
+        <nsc:PreparationDateAndTime>2023-09-02T04:49:45</nsc:PreparationDateAndTime>
+        <nsc:MessageIdentification>76337dbf-0f77-4997-bea7-475b52d61698</nsc:MessageIdentification>
+        <nsc:MessageType>CC433</nsc:MessageType>
+    </ns:MESSAGE>
+    <!-- General Segment -->
+    <ns:ImportOperation>
+        <ns:LRN>24RO015630942FV352</ns:LRN>
+        <ns:declarationType>IM</ns:declarationType>
+    </ns:ImportOperation>
+
+    <ns:NationalDeclaration>
+        <ns:CustomType>standard</ns:CustomType>
+    </ns:NationalDeclaration>
+
+
+    <!-- Biroul vamal -->
+    <ns:CustomsOffice>
+        <ns:referenceNumber>ROCR9000</ns:referenceNumber>
+    </ns:CustomsOffice>
+    <!-- 13 05 000 000 -->
+    <ns:Declarant>
+        <ns:identificationNumber>RO015630942</ns:identificationNumber>
+        <ns:name>INOSERV SRL</ns:name>
+        <ns:Address>
+            <ns:streetAndNumber>ALEEA BOTORANI NR 4</ns:streetAndNumber>
+            <ns:city>BUCURESTI</ns:city>
+            <ns:postcode>050812</ns:postcode>
+            <ns:country>RO</ns:country>
+        </ns:Address>
+    </ns:Declarant>
+    <!-- 13 06 000 000 -->
+    <!-- <ns:Representative><ns:status>3</ns:status></ns:Representative> -->
+    <ns:Representative>
+        <ns:status>3</ns:status>
+        <!-- <ns:identificationNumber>RO3747958</ns:identificationNumber> -->
+     
+    </ns:Representative>
+    <ns:GoodsShipment>
+        <ns:sequenceNumber>1</ns:sequenceNumber>
+        <!-- 12 01 000 000 -->
+        <ns:PreviousDocument>
+            <ns:sequenceNumber>1</ns:sequenceNumber>
+            <ns:type>NCLE</ns:type>
+            <ns:referenceNumber>PREV242321</ns:referenceNumber>
+        </ns:PreviousDocument>
+        <ns:Consignment>
+            <!-- 12 08 000 000 -->
+            <ns:grossMass>100</ns:grossMass>
+            <!-- 16 15 000 000 -->
+            <ns:LocationOfGoods>
+                <ns:typeOfLocation>B</ns:typeOfLocation>
+                <ns:qualifierOfIdentification>Y</ns:qualifierOfIdentification>
+                <!-- <ns:CustomsOffice><ns:referenceNumber>RO010001</ns:referenceNumber></ns:CustomsOffice> -->
+                <ns:authorisationNumber>ROTEARODRVBU0-2023-ADR1234</ns:authorisationNumber>
+            </ns:LocationOfGoods>
+            <!-- 12 05 000 000 -->
+    
+        </ns:Consignment>
+        <!-- Segment marfuri -->
+        <ns:GoodsShipmentItem>
+            <ns:sequenceNumber>1</ns:sequenceNumber>
+            <!-- 11 03 000 000 -->
+            <ns:declarationGoodsItemNumber>1</ns:declarationGoodsItemNumber>
+            <!-- 11 09 000 000 -->
+            <ns:Procedure>
+                <!-- 11 09 001 000 -->
+                <ns:requestedProcedure>40</ns:requestedProcedure>
+                <!-- 11 09 002 000 -->
+                <ns:previousProcedure>00</ns:previousProcedure>
+            </ns:Procedure>
+            <!-- 13 01 000 000 -->
+            <ns:Commodity>
+                <!-- 18 05 000 000 -->
+                <ns:descriptionOfGoods>TELST</ns:descriptionOfGoods>
+                <!-- 18 09 000 000 -->
+                <ns:GoodsMeasure>
+                    <!-- 18 04 000 000 -->
+                    <ns:grossMass>100</ns:grossMass>
+                </ns:GoodsMeasure>
+            </ns:Commodity>
+            <ns:Packaging>
+                <ns:sequenceNumber>1</ns:sequenceNumber>
+                <ns:typeOfPackages>1F</ns:typeOfPackages>
+                <ns:numberOfPackages>2</ns:numberOfPackages>
+            </ns:Packaging>
+        </ns:GoodsShipmentItem>
+    </ns:GoodsShipment>
+</CC433>

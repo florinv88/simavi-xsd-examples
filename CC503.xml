@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CC503 xmlns="urn:uccv:xsd:imp:1.0.0_2.00:CC503" xmlns:ns="urn:uccv:xsd:imp:1.0.0_2.00:CC503" xmlns:nsc="urn:uccv:xsd:imp:1.0.0_2.00:CCommon">
+    <ns:MESSAGE>
+        <nsc:MessageSender>RO015630942</nsc:MessageSender>
+        <nsc:MessageRecipient>VAMA</nsc:MessageRecipient>
+        <nsc:PreparationDateAndTime>2023-09-02T04:49:45</nsc:PreparationDateAndTime>
+        <nsc:MessageIdentification>2bc60711-5953-408e-a803-e8aaffe99985</nsc:MessageIdentification>
+        <nsc:MessageType>CC503</nsc:MessageType>
+    </ns:MESSAGE>
+    <ns:Declaration>
+        <ns:MRN>24ROCR9000000237R0</ns:MRN>
+        <ns:Declarant>
+            <ns:DeclarantIdentificationNumber>RO015630942</ns:DeclarantIdentificationNumber>
+        </ns:Declarant>
+    </ns:Declaration>
+    <ns:Answer>
+        <ns:DiscrepanciesAccepted>yes</ns:DiscrepanciesAccepted>
+        <ns:Justification>E bine</ns:Justification>
+    </ns:Answer>
+
+</CC503>

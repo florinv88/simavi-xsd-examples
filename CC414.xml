@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CC414 xmlns="urn:uccv:xsd:imp:1.0.0_2.00:CC414" xmlns:ns="urn:uccv:xsd:imp:1.0.0_2.00:CC414" xmlns:nsc="urn:uccv:xsd:imp:1.0.0_2.00:CCommon">
+    <ns:MESSAGE>
+        <nsc:MessageSender>RO015630942</nsc:MessageSender>
+        <nsc:MessageRecipient>VAMA</nsc:MessageRecipient>
+        <nsc:PreparationDateAndTime>2023-09-02T04:49:45</nsc:PreparationDateAndTime>
+        <nsc:MessageIdentification>111b74a6-b971-48ba-b9e2-2584b3ad5a66</nsc:MessageIdentification>
+        <nsc:MessageType>CC414</nsc:MessageType>
+    </ns:MESSAGE>
+
+    <ns:ImportOperation>
+        <ns:LRN>24RO015630942CC075</ns:LRN>
+        <ns:MRN>24ROCR9000000237R0</ns:MRN>
+        <ns:invalidationRequestDateAndTime>20240725</ns:invalidationRequestDateAndTime>
+        <ns:invalidationReason>Un motiv de anulare a cererii</ns:invalidationReason>
+    </ns:ImportOperation>
+
+    <ns:Declarant>
+        <ns:identificationNumber>RO015630942</ns:identificationNumber>
+        <ns:name>INOSERV SRL</ns:name>
+        <ns:Address>
+            <ns:streetAndNumber>ALEEA BOTORANI NR 4</ns:streetAndNumber>
+            <ns:city>BUCURESTI</ns:city>
+            <ns:postcode>050812</ns:postcode>
+            <ns:country>RO</ns:country>
+        </ns:Address>
+    </ns:Declarant>
+
+    <ns:Representative>
+        <ns:status>3</ns:status>
+    </ns:Representative>
+
+     <ns:CustomsOffices>
+            <ns:CustomsOffice>ROBU1400</ns:CustomsOffice>
+    </ns:CustomsOffices>
+
+
+</CC414>
