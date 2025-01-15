@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CC417>
+    <MESSAGE>
+        <MessageSender>IMP.RO</MessageSender>
+        <MessageRecipient>DOLACHE</MessageRecipient>
+        <PreparationDateAndTime>2025-01-15T13:50:49</PreparationDateAndTime>
+        <MessageIdentification>a909c982-f1a1-4a05-ac0d-908b210ce3d7</MessageIdentification>
+        <MessageType>CC417</MessageType>
+    </MESSAGE>
+    <Declaration>
+        <LRN>24RO16124617BSPARAD</LRN>
+    </Declaration>
+    <GoodsItemTaxes>
+        <GoodsItemNumber>1</GoodsItemNumber>
+        <Taxes>
+            <TaxType>
+                <TaxTypeCode>020</TaxTypeCode>
+            </TaxType>
+            <TaxType>
+                <TaxTypeCode>B00</TaxTypeCode>
+                <TaxPaymentMethod>A</TaxPaymentMethod>
+            </TaxType>
+            <TaxType>
+                <TaxTypeCode>A00</TaxTypeCode>
+            </TaxType>
+        </Taxes>
+    </GoodsItemTaxes>
+</CC417>
